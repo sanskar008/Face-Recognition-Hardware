@@ -30,8 +30,8 @@ This project is a lightweight, real-time face detection and recognition system b
 
 ```
 ├── capture.py         # Captures face images and stores them in folders
-├── train.py           # Trains the LBPH model and saves it
-├── recognize.py       # Real-time recognition using webcam
+├── train2.py           # Trains the LBPH model and saves it
+├── recog3.py       # Real-time recognition using webcam
 ├── labels.pickle      # Stores label-name mappings
 ├── trainer.yml        # Trained recognizer model
 ├── haarcascade_frontalface_default.xml
@@ -56,7 +56,7 @@ Enter your name and let the system capture 30–50 images.
 ### 2. Train the Recognizer
 
 ```bash
-python3 train.py
+python3 train2.py
 ```
 
 This creates `trainer.yml` and `labels.pickle`.
@@ -64,7 +64,7 @@ This creates `trainer.yml` and `labels.pickle`.
 ### 3. Run Face Recognition
 
 ```bash
-python3 recognize.py
+python3 recog3.py
 ```
 
 It opens the camera feed and labels known faces in real-time.
