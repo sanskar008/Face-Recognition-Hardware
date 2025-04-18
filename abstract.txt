@@ -1,0 +1,12 @@
+Abstract: Face Recognition-Based Attendance/Surveillance System Using Raspberry Pi
+
+This project implements a real-time face detection and recognition system using the Raspberry Pi 4 Model B, aimed at providing a lightweight and cost-effective solution for automated identification tasks such as attendance marking or basic surveillance.
+
+The system uses the OpenCV library with Haar Cascade classifiers for face detection and the LBPH (Local Binary Pattern Histogram) algorithm for face recognition. It captures and stores facial images of multiple individuals, processes them into grayscale datasets, and trains a model to recognize distinct faces. The trained model is used in real-time to identify individuals from a video feed, labeling them accordingly. Unrecognized faces are marked as “Unknown.”
+
+This project allows Raspberry Pi to function as a standalone face recognition device, requiring minimal resources. USB webcams are used for capturing video input, while file I/O and training are managed directly on the Pi. It offers easy scalability for schools, offices, or smart home environments.
+
+By combining embedded systems and machine learning, the system demonstrates how facial biometrics can be integrated into edge devices, paving the way for smart security, attendance systems, or personal assistant interfaces.
+
+// refer this chat link for further details and improvements - 
+// Chat link - https://chatgpt.com/share/6800d148-1228-8005-af14-46485993c292

@@ -1,0 +1,9 @@
+Steps :- 
+1.Activate Virtual Environment - source venv/bin/activate
+2.Capture Images (enter name) - python3 capture.py
+3.Train Model - python3 train2.py
+4.Recognise - python3 recog3.py
+
+// Pehle capture wali file khol ke, naam deke photos khinchwalo, 30 photos
+Then train wali file khol ke model train karlo un pictures par
+Fir Recog wali file khol ke run karlo
