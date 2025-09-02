@@ -36,7 +36,6 @@ for root, dirs, files in os.walk(dataset_dir):
 with open("labels.pickle", 'wb') as f:
     pickle.dump(label_ids, f)
 
-# Train the recognizer
 recognizer.train(x_train, np.array(y_labels))
 recognizer.save("trainer.yml")
 
